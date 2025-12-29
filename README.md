@@ -1,8 +1,4 @@
-Here is the complete, formatted `README.md` code. You can copy this directly into your `README.md` file on GitHub.
 
-I have placed all the images you provided into the appropriate sections to create a logical flow from setup to analysis.
-
-```markdown
 # 🚀 AI-Powered Observability on Kubernetes using OpenTelemetry & Honeycomb
 
 ![Architecture Diagram](images/architecture.jpg)
