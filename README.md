@@ -135,7 +135,7 @@ kubectl port-forward -n otel-demo svc/frontend-proxy 8080:8080
 
 ```
 
-![Access the Demo Applicationy](images/port_forwarding_frontendg.png)
+![Access the Demo Applicationy](images/port_forwarding_frontend.png)
 
 **Outcome:**
 
