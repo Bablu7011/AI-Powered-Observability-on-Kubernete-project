@@ -192,5 +192,3 @@ This project serves as a real-world blueprint for implementing observability in 
 
 `Kubernetes` `OpenTelemetry` `Honeycomb` `Observability` `MCP` `AI Debugging` `Microservices` `Helm` `Distributed Tracing`
 
-```
-
