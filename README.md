@@ -110,7 +110,7 @@ kubectl create namespace otel-demo
 helm upgrade --install otel-demo open-telemetry/opentelemetry-demo -n otel-demo -f values.yaml
 
 ```
-![Configure OpenTelemetry](images/helm_otel_setup.png)
+![Deploy OpenTelemetry](images/helm_otel_setup.png)
 
 **Outcome:**
 
@@ -124,7 +124,7 @@ Wait for a few minutes and check again. All pods should be in the `Running` stat
 kubectl get pods -n otel-demo
 
 ```
-![Configure OpenTelemetry](images/pods_creating.png)
+![Verify Deployment](images/pods_creating.png)
 
 ### 5️⃣ Access the Demo Application
 
@@ -135,7 +135,7 @@ kubectl port-forward -n otel-demo svc/frontend-proxy 8080:8080
 
 ```
 
-![Configure OpenTelemetry](images/port_forwarding_frontendg.png)
+![Access the Demo Applicationy](images/port_forwarding_frontendg.png)
 
 **Outcome:**
 
@@ -149,7 +149,7 @@ You can view the load generator stats at `http://localhost:8080/loadgen/`.
 
 ---
 
-![Configure OpenTelemetry](images/demo_website_page.png)
+![Outcome](images/demo_website_page.png)
 
 ## 🤖 AI-Powered Debugging (MCP)
 
@@ -159,7 +159,8 @@ This is the most advanced part of the project. We connect our IDE (VS Code) to H
 
 In the Honeycomb UI, navigate to Account Settings > Integrations > MCP to get your connection URL.
 
-![Configure OpenTelemetry](images/honeycomp_mcp_server_connection.png)
+![Connect Honeycomb MCPy](images/honeycomp_mcp_server_connection.png)
+
 ### 2. Configure VS Code
 
 Add the MCP server configuration to your VS Code MCP settings file (`mcp.json`):
@@ -185,7 +186,7 @@ Now, open GitHub Copilot Chat in VS Code and ask questions about your live clust
 
 ---
 
-![Configure OpenTelemetry](images/vs_code.png)
+![Ask Natural Language Questions](images/vs_code.png)
 
 ## 🎯 What I Learned
 
