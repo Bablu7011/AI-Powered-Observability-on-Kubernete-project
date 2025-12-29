@@ -1,7 +1,7 @@
 
 # 🚀 AI-Powered Observability on Kubernetes using OpenTelemetry & Honeycomb
 
-![Architecture Diagram](images/architecture.jpg)
+![Architecture Diagram](images/architecture.png)
 
 ## 📌 Project Overview
 
